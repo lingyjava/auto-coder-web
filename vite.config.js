@@ -9,9 +9,9 @@ export default defineConfig({
   server: {
     // 代理
     proxy: {
-      '/coder': {
-        // target: 'http://coder.lingyuan.tech/',
-        target: 'http://127.0.0.1:8081/',
+      '/api': {
+        target: 'http://autocoder.lingyuan.tech/',
+        // target: 'http://127.0.0.1:8081/',
         // 允许跨域
         changeOrigin: true
       }
