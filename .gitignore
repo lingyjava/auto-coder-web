@@ -31,3 +31,7 @@ coverage
 
 # vscode
 .vscode/
+
+# deploy
+dist/
+*.zip

@@ -15,7 +15,7 @@ const handleBugReport = (event) => {
   <el-menu :default-active="activeIndex" class="el-menu" mode="horizontal" :ellipsis="false" router>
     <div class="logo-container">
       <img class="logo-image" src="@/assets/logo.png" alt="logo" />
-      <span class="logo-text">𝑨𝒖𝒕𝒐 𝑪𝒐𝒅𝒆𝒓 𝑾𝒆𝒃</span>
+      <span class="logo-text">𝑨𝒖𝒕𝒐 𝑪𝒐𝒅𝒆𝒓</span>
     </div>
     <div class="flex-grow-1" />
 
